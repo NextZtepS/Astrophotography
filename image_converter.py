@@ -4,7 +4,7 @@ import cv2
 from astropy.io import fits
 
 # Set the directory containing your FITS files
-fits_directory = './Mars/Light'  # <-- Change this!
+fits_directory = './2025-04-19/M_44/Light'  # <-- Change this!
 output_directory = os.path.join(fits_directory, 'png_output')
 os.makedirs(output_directory, exist_ok=True)
 
