@@ -1,5 +1,6 @@
 .venv/
 png_output/
 process/
+cache/
 
 .DS_Store
